@@ -16,13 +16,13 @@ protocol MyFirstViewDelegate: class {
 
 class ThirdViewController: UIViewController {
     private var mainView: MyFirstView!
+    private var messagesToShowInTable: [String] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setMainView()
         setConstraints()
     }
-
 
     private func setMainView() {
         mainView = MyFirstView(frame: self.view.frame)
@@ -46,7 +46,13 @@ class ThirdViewController: UIViewController {
 
 extension ThirdViewController: MyFirstViewDelegate {
     func showTableView(_ view: MyFirstView) {
-        return
+
+        messagesToShowInTable.append("First cell message quite long, so it probably won't fit in one row")
+        messagesToShowInTable.append("Second a little bit shorter message")
+        messagesToShowInTable.append("Third message")
+
+        let messagesVC = MessagesTableViewController(messages: messagesToShowInTable)
+        self.navigationController?.pushViewController(messagesVC, animated: true)
     }
     
     func didTapBackToRoot(_ view: MyFirstView) {

@@ -23,6 +23,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window?.rootViewController = rootNavigationController
         window?.makeKeyAndVisible()
 
+        UINavigationBar.appearance().tintColor = .purple
+        UINavigationBar.appearance().barTintColor = .yellow
+
         return true
     }
 }

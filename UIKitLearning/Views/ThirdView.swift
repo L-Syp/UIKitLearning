@@ -76,12 +76,9 @@ class MyFirstView: UIView {
     private func setGoToFirstViewButtonConstraints() {
          let guide = self.safeAreaLayoutGuide
         
-        
         goToFirstViewButton.translatesAutoresizingMaskIntoConstraints = false
         goToFirstViewButton.topAnchor.constraint(equalTo: guide.topAnchor, constant: 20).isActive = true
         goToFirstViewButton.centerXAnchor.constraint(equalTo: self.centerXAnchor).isActive = true
-
-       // goToFirstViewButton.sizeToFit()
     }
 
     private func setTitleButtonConstraints() {
