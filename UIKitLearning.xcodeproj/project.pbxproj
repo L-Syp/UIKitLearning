@@ -15,6 +15,7 @@
 		8AD9B7DED9736AA736D096EB /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD9B8FE7316E64C83DF46E1 /* ThirdViewController.swift */; };
 		D674953321243BE300A0CC5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D674953221243BE300A0CC5D /* AppDelegate.swift */; };
 		D674953A21243BE400A0CC5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D674953921243BE400A0CC5D /* Assets.xcassets */; };
+		D68A65D5213C14D000D32544 /* MessagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68A65D4213C14D000D32544 /* MessagesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		D674953221243BE300A0CC5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D674953921243BE400A0CC5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D674953E21243BE400A0CC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D68A65D4213C14D000D32544 /* MessagesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 				8AD9B8FE7316E64C83DF46E1 /* ThirdViewController.swift */,
 				8AD9B0DB6EA8012583A0F992 /* SecondViewController.swift */,
 				8AD9B6B563B0FC0CDD26CAA7 /* FirstViewController.swift */,
+				D68A65D4213C14D000D32544 /* MessagesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D674953321243BE300A0CC5D /* AppDelegate.swift in Sources */,
+				D68A65D5213C14D000D32544 /* MessagesTableViewController.swift in Sources */,
 				8AD9B55AC607EC5E33CB42B1 /* ThirdView.swift in Sources */,
 				8AD9B7DED9736AA736D096EB /* ThirdViewController.swift in Sources */,
 				8AD9B28C0898E9E1E5D4F60A /* SecondViewController.swift in Sources */,

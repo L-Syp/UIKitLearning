@@ -14,7 +14,7 @@ class SecondViewController: UIViewController {
     @IBOutlet weak var showThirdViewControllerButton: UIButton!
 
     @IBAction func buttonClicked() {
-        let thirdVC = ThirdViewController(nibName: nil, bundle: nil)
+        let thirdVC = ThirdViewController()
         self.navigationController?.pushViewController(thirdVC, animated: true)
     }
 
